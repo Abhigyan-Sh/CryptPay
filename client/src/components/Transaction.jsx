@@ -93,7 +93,7 @@ const Transaction = () => {
             <div className="flex flex-col md:p-12 py-12 px-4">
                 {/* on medium devices padding 12 */}
                 {currentAccount ? (
-                    <h1 className="text-white text-3xl text-center my-2">Latest Transactions</h1>
+                    <h1 className="text-white text-3xl text-center my-2">Latest Transactions..</h1>
                 ) : (
                     <h1 className="text-white text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
                         Connect your wallet to see more..

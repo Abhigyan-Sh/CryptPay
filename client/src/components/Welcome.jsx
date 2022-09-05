@@ -57,7 +57,7 @@ const Welcome = (e) => {
                             Ethereum model
                         </div>
                         <div className= {`sm:rounded-bl-2xl  ${commonStyles}`}>
-                            its time for Web3.0
+                            Web3.0 arrival
                         </div>
                         <div className= {commonStyles}>Low fees</div>
                         <div className= {`rounded-br-2xl  ${commonStyles}`}>
