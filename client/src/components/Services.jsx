@@ -2,6 +2,7 @@ import { FaShieldVirus } from 'react-icons/fa'
 import { FaStudiovinari } from 'react-icons/fa'
 import { GiHand } from 'react-icons/gi'
 import { BsSearch } from 'react-icons/bs'
+
 const ServiceCard = ({color, title, icon, subtitle}) => {
     return (
         <div className="flex-3 flex flex-row justify-start items-start white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl">

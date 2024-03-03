@@ -1,9 +1,12 @@
+const { ethers } = require("hardhat")
+// import ethers from 'hardhat'
+
 const main = async() => {
-  const transactionsFactory = await hre.ethers.getContractFactory("Transfer");
+  const transactionsFactory = await ethers.getContractFactory("Transfer");
   const transactionsContract = await transactionsFactory.deploy();
   
   await transactionsContract.deployed();
-  console.log(`Open transaction on etherscan, https://ropsten.etherscan.io/address/${transactionsContract.address}`);
+  console.log(`Open transaction on etherscan, https://goerli.etherscan.io/address/${transactionsContract.address}`);
 };
 
 const runMain = async() => {
